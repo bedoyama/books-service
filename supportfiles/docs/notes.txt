@@ -2,4 +2,4 @@
 
 mongoimport --db users --collection contacts --file contacts.json
 
-"C:\Program Files\MongoDB\Server\4.0\bin\mongoimport.exe" --db content --collection books --file "C:\Users\bedoy\IdeaProjects\books-service\supportfiles\json\books.v1.json"
+"C:\Program Files\MongoDB\Server\4.0\bin\mongoimport.exe" --db content --collection book --file "C:\Users\bedoy\IdeaProjects\books-service\supportfiles\json\books.v1.json"

@@ -1,0 +1,33 @@
+[
+  {
+    'repeat(100)': {
+		title:'{{lorem(7, "words")}}',
+		authors: [
+			{
+				firstName: '{{firstName()}}',
+				lastName: '{{surname()}}',
+				bio:'{{lorem(1, "paragraphs")}}'
+			}
+		],
+		guid: '{{guid()}}',
+		language:'{{random("Spanish", "English", "French")}}',
+		year: '{{integer(1900, 2018)}}',
+		publisher:'{{company()}}',
+		isbn10:'{{integer(1000000000, 9999999999)}}',
+		isbn13:'{{integer(100, 999)}}-{{integer(1000000000, 9999999999)}}',
+		description:'{{lorem(1, "paragraphs")}}',
+		prices: [
+			{
+				amount:'{{floating(1000, 4000, 2, "$0,0.00")}}',
+				startDate:'01-01-2001',
+				endDate:'12-31-2020'
+			}
+		],
+		tags: [
+			{
+				'repeat(5)': '{{lorem(1, "words")}}'
+			}
+		]
+	}
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "title": "x",
+  "authors": [
+    {
+      "firstName": "x",
+      "lastName": "x",
+      "bio": "x"
+    }
+  ],
+  "guid": "{{guid()}}",
+  "language": "x",
+  "year": 212,
+  "publisher": "x",
+  "isbn10": "x",
+  "isbn13": "x",
+  "description": "x",
+  "prices": [
+    {
+      "amount": 122.11,
+      "startDate": "x",
+      "endDate": "x"
+    }
+  ]
+}

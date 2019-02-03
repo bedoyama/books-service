@@ -28,6 +28,10 @@ repositories {
     mavenCentral()
 }
 
+bootRun {
+    jvmArgs=["-agentlib:jdwp=transport=dt_socket,address=32323,suspend=n,server=y"]
+}
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
